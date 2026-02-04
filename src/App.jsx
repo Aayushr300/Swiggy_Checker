@@ -17,7 +17,7 @@ export default function App() {
       setLoading(true);
       setMessage("");
 
-      const res = await fetch("http://localhost:3000/send-otp", {
+      const res = await fetch("https://grocery.offershubs.in/send-otp/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
